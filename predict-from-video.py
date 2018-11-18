@@ -8,9 +8,6 @@ import os
 from google.cloud.automl_v1beta1.proto import service_pb2
 from google.cloud import automl_v1beta1
 
-# $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\sidhu\Projects\Paul-Blart-Auto-Cop\Paul-Blart-Auto-cop-7718ffea7700.json"
-# python predict-stance.py YOUR_LOCAL_IMAGE_FILE paul-blart-auto-cop ICN2636864477904692957
-
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = (r"*******")
 
 project_id = '******'
